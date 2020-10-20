@@ -12,3 +12,5 @@ getUser('dungnguyen17')
     .then(res => console.log(res))
     .catch(err => console.warn(err));
 console.log("123");
+// @ts-ignore
+document.getElementById('DEMO').innerHTML = myJSON;
